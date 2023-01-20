@@ -1,0 +1,2 @@
+# Origanum - ScalaTest Reporter
+
