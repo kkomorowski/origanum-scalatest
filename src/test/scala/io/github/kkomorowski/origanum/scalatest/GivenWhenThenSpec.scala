@@ -8,6 +8,7 @@ class GivenWhenThenSpec extends AnyFeatureSpec with GivenWhenThen {
 
   Feature("Feature One") {
     Scenario("Scenario One Failing", Slow) {
+      markup("This is a markup in the test")
       Given("this")
       And("that")
       When("something happen")

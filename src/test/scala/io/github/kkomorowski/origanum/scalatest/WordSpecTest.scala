@@ -17,6 +17,15 @@ class WordSpecTest extends AnyWordSpec {
       "have page size 0" in {
         assert(true)
       }
+      "throw an exception" in {
+        throw new RuntimeException("This should be thrown here!")
+      }
+      "this is a pending test" in {
+        pending
+      }
+      "this test is canceled" in {
+        assume(false)
+      }
     }
   }
 
